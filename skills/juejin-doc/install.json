@@ -1,0 +1,13 @@
+{
+  "mcp": {
+    "name": "juejin-doc",
+    "scope": "user",
+    "entrypoint": "dist/index.js",
+    "env": [
+      {
+        "key": "JUEJIN_TOKEN",
+        "description": "掘金 sessionid cookie 值（在 juejin.cn → F12 → Application → Cookies 中获取）"
+      }
+    ]
+  }
+}
