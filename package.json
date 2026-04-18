@@ -1,0 +1,16 @@
+{
+  "name": "kaolaqi-skills",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "skills/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "install:all": "bash scripts/install.sh",
+    "update:all": "bash scripts/update.sh"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

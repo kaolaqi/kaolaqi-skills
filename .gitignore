@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts.map
+
+# Runtime data (per-user)
+*.json.local
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
