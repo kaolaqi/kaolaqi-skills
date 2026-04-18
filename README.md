@@ -7,6 +7,7 @@
 | Skill | 说明 |
 |-------|------|
 | [feishu-doc](./skills/feishu-doc) | 将对话内容导出为飞书文档，或读取飞书文档到对话 |
+| [juejin-doc](./skills/juejin-doc) | 将 AI 生成的文章一键发布到掘金，支持草稿保存、文章更新、列表查看 |
 
 ## 快速安装
 
