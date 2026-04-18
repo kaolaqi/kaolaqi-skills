@@ -1,0 +1,17 @@
+{
+  "mcp": {
+    "name": "feishu-doc",
+    "scope": "user",
+    "entrypoint": "dist/index.js",
+    "env": [
+      {
+        "key": "FEISHU_APP_ID",
+        "description": "飞书应用 APP_ID（在飞书开放平台 https://open.feishu.cn/app 获取）"
+      },
+      {
+        "key": "FEISHU_APP_SECRET",
+        "description": "飞书应用 APP_SECRET"
+      }
+    ]
+  }
+}

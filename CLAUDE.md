@@ -17,13 +17,12 @@ Each skill lives in `skills/<name>/` and is a self-contained MCP server.
 ```
 kaolaqi-skills/
 ├── CLAUDE.md                  # This file
+├── install-skills.js          # 安装脚本（Node.js，跨平台）
 ├── tsconfig.base.json         # Shared TS config
 ├── package.json               # Workspace root
-├── scripts/
-│   ├── install.sh             # Install all skills into Claude Code
-│   └── update.sh              # Update/rebuild all skills
 └── skills/
     └── <skill-name>/
+        ├── install.json       # MCP 注册配置（name, scope, env, entrypoint）
         ├── package.json
         ├── tsconfig.json      # Extends ../../tsconfig.base.json
         ├── SKILL.md           # Skill definition (triggers, workflow)
@@ -70,6 +69,7 @@ await server.connect(transport);
 
 1. Create `skills/<name>/` with the structure above
 2. `tsconfig.json` must extend `../../tsconfig.base.json`
-3. Add install entry in `scripts/install.sh`
+3. Add `install.json` declaring MCP registration params (`name`, `scope`, `entrypoint`, `env`)
 4. Document trigger phrases in `SKILL.md`
-5. Run `npm install` from workspace root
+5. Run `npm install` from workspace root to register the workspace
+6. Install: `npm run install-skills -- <name>`

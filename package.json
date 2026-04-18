@@ -7,8 +7,7 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces",
-    "install:all": "bash scripts/install.sh",
-    "update:all": "bash scripts/update.sh"
+    "install-skills": "node install-skills.js"
   },
   "engines": {
     "node": ">=18.0.0"
