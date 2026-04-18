@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Read",
+      "Grep",
+      "Glob",
+      "Edit",
+      "Write",
+      "Agent",
+      "Bash(cat *)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git rev-parse*)",
+      "Bash(git merge-base*)"
+    ]
+  }
+}
