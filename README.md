@@ -8,6 +8,7 @@
 |-------|------|
 | [feishu-doc](./skills/feishu-doc) | 将对话内容导出为飞书文档，或读取飞书文档到对话 |
 | [juejin-doc](./skills/juejin-doc) | 将 AI 生成的文章一键发布到掘金，支持草稿保存、文章更新、列表查看 |
+| [deploy](./skills/deploy) | 基于 Chrome Devtools MCP 的一键部署工具，自动获取 Token 并部署到测试环境，零依赖无需 puppeteer |
 
 ## 快速安装
 
@@ -24,6 +25,7 @@ npm run install-skills -- feishu-doc
 ```
 
 安装脚本会自动完成：
+
 1. 将 skill 文件同步到 `~/.claude/skills/<name>/`
 2. 执行 `npm install` 安装依赖
 3. 执行 `npm run build` 编译 TypeScript
