@@ -1,0 +1,13 @@
+{
+  "mcp": {
+    "name": "gitee",
+    "scope": "user",
+    "entrypoint": "dist/index.js",
+    "env": [
+      {
+        "key": "GITEE_TOKEN",
+        "description": "Gitee 个人访问令牌（在 https://gitee.com/profile/personal_access_tokens 创建，需勾选 projects、issues、pull_requests 权限）"
+      }
+    ]
+  }
+}

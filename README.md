@@ -8,6 +8,8 @@
 |-------|------|
 | [feishu-doc](./skills/feishu-doc) | 将对话内容导出为飞书文档，或读取飞书文档到对话 |
 | [juejin-doc](./skills/juejin-doc) | 将 AI 生成的文章一键发布到掘金，支持草稿保存、文章更新、列表查看 |
+| [deploy](./skills/deploy) | 基于 Chrome Devtools MCP 的一键部署工具，自动获取 Token 并部署到测试环境，零依赖无需 puppeteer |
+| [gitee](./skills/gitee) | 通过GITEE_TOKEN授权访问个人getee账号，支持gitee上项目的管理、推送、发布代码 |
 
 ## 快速安装
 
